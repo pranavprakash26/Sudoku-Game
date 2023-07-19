@@ -1,0 +1,67 @@
+*Insert New Developments at the top*
+
+Version 1.0
+-Full Release
+-Secrets Secrets do not tell
+
+Version 0.81
+-Corrected code in individual puzzles allowing games to relaunch.
+-Corrected bugs in levels 6, 7
+-Surpressed cmd panel output in level 8
+-Note: Recommend push to launch Version 1.0
+
+Version 0.8
+-Inserted code that allows the game to relaunch upon completion.
+-Utilized a Function
+-Debugged some launch menu items.
+
+Version 0.74
+-Edited color on levels for visibility 
+
+Version 0.73
+-Resolved a bug on launch menu allowing level 10 buttons to launch level 1
+-Edited color on Launch menu
+
+Version 0.72
+-Fixed a spelling error on launch menu
+-Resolved an incorrect answer issue on level 2
+
+Version 0.71
+-Fixed bug where some puzzles would finish early or no finish at all
+-Supressed output of some unecessary code into the command window.
+
+Version 0.7
+-Added Levels 1-5
+-Note: Pending version 1 for beta and bug testing.
+
+Version 0.5
+-Built Launcher Menu
+-Built levels 6, 7, 9, and 10
+-Added titles to the windows so players know what level they are playing
+
+Version 0.1.1 - 20Nov22
+-Removed MSG popup for incorrect box selection
+-Added UI Wait command to force program to wait until error boxes are closed.
+-Idiot proofed the program to error out when a user tries to type in anyting but a value 1-9
+
+
+Version 0.1 - 19Nov22
+-First Working Version with logic wholly intact
+-Notes from Developer Landon: %%UPDATE LOG: 11/19/22
+%The game finally works! I set a condition so that once the ticker reaches
+%43 (you need to put in 42 numbers) The game stops and says you win. I made
+%it so it the ticker value only increases when you put in the right number.
+%When a number is incorrect, it displays a box that tells the user, and
+%when they close it, it returns the question mark made back into an empty
+%box, so it can be edited again. I also removed the drawScene commands from
+%the long elseif statement, because I could just put it later to update
+%when the code detects if the number is right first. I suspect that for the
+%while condition we can get rid of the ticker entirely and just compare it
+%to the finished board every iteration of the loop, but for now, it works.
+%I also removed the close(h) command you had from the invalid box set of
+%code, it wasn't working properly and crashed the code. I think we also
+%should drawScene the next level after the user closes the box that
+%announces that they won.
+%ALSO: When you save the file, make sure to save it in one line, no spaces.
+%I am going with the format SudokuProjectD/M/Y. If it has spaces in it or
+%other unrecognized characters, then the code will not run.
